@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">sell</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name1">Spinner</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="send">Send</string>
+    <string name="write_message">Write Message</string>
+    <string name="no_content_to_show">No content to show</string>
+    <string name="you_are_not_logged_in_yet">You are not Logged in yet</string>
+    <string name="log_in">Log In</string>
+    <string name="or">OR</string>
+    <string name="if_you_do_not_have_account">If you do not have account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="about_us">About Us</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="add_post">Add Post</string>
+    <string name="chat">Chat</string>
+    <string name="setting">Setting</string>
+    <string name="notification">Notification</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="reset">Reset</string>
+    <string name="submit">Submit</string>
+    <string name="email_address">Email Address</string>
+    <string name="username">Username</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an Account ?</string>
+    <string name="select_categories">Select categories</string>
+    <string name="important_notice">Important Notice</string>
+    <string name="because_covid_19_please_mantain_atleast_2_meter_distance_when_come_to_garage">Because COVID-19, Please mention atleast 2 meter distance when come to garage</string>
+    <string name="you_received_a_message_from_mr_lakhvir">You received a message from Mr. Lakhvir</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="categories">Categories</string>
+    <string name="settings">Settings</string>
+    <string name="follow_us_on_social_media">Follow us on Social Media</string>
+    <string name="garage_sale">Garage Sale</string>
+    <string name="sale_garage">Sale_Garage</string>
+    <string name="logout">logout</string>
+    <string name="price_100">Price: $</string>
+    <string-array name="Spinnner_items">
+        <item>Select Language</item>
+        <item>English</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="Spinnner">
+        <item><selected>Select Categories</selected></item>
+        <item>Furniture</item>
+        <item>Vehicle Parts</item>
+        <item>Clothes</item>
+        <item>Electronics</item>
+        <item>Shoes</item>
+        <item>Kitchen</item>
+        <item>Books</item>
+    </string-array>
+
+</resources>

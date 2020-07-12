@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_marginTop="180dp"
+        android:textSize="35dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/email_address"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/emaillogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edt_bg"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textEmailAddress"
+        android:padding="3dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/passwordlogin"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edt_bg"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:padding="3dp"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FE0000"
+        android:clickable="true"
+        android:fontFamily="sans-serif"
+        android:text="@string/log_in"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/create_new_account"
+        android:textColor="#FE5400"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/forgot_password"
+        android:textColor="#FE5400"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@color/black"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"/>
+</LinearLayout>

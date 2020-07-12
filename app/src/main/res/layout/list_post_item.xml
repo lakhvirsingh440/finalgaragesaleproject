@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgPost"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/garagesale"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:id="@+id/txtName"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_location"
+                android:drawableTint="#000"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:text="Location"
+                android:textColor="#000"
+                android:id="@+id/txtLocation"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawableTint="#000"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:text="Phone"
+                android:textColor="#000"
+                android:id="@+id/txtPhone"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:text="@string/price_100"
+                android:textColor="#000"
+                android:gravity="center_vertical"
+                android:id="@+id/txtPrice"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="261dp"
+                android:layout_height="86dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@color/colorAccent"
+            android:text="@string/chat"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/btnChat"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp" />
+
+
+</LinearLayout>
