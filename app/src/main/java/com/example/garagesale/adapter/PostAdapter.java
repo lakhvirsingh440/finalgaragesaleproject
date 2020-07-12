@@ -59,7 +59,7 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         holder.location.setText(list.get(position).get("address"));
         holder.phone.setText(list.get(position).get("phone"));
         holder.price.setText("Price: $"+list.get(position).get("Price"));
-        holder.price.setText(list.get(position).get("description"));
+        holder.des.setText(list.get(position).get("description"));
 
         if (mFirebaseUser != null) {
             if (mFirebaseUser.getUid().equals(list.get(position).get("userId"))) {
